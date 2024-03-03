@@ -1,2 +1,24 @@
 # Sprint_6
-Repository for learning Python QA automation
+Автотесты для учебного сервиса «Яндекс.Самокат»
+
+## Структура
+tests - тесты
+
+locators - хранение локаторов
+
+pages - методы для взаимодействия со страницами и описание шагов
+
+links.py - используемые ссылки
+
+testdata.py - тестовые данные
+
+
+### Запустить тесты
+запустить все тесты:
+```bash
+pytest -v tests
+```
+зпустить все тесты с генерацией отчетов
+```bash
+pytest tests --alluredir=allure_results 
+```
